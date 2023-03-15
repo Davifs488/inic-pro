@@ -1,0 +1,36 @@
+package projetopessoa;
+public class Aluno extends Pessoa{
+    private int matr;
+    private String curso;
+   
+    
+    public void cancelarMatr(){
+       System.out.println("Matricula sera cancelada!");
+    }
+
+    public int getMatr() {
+        return matr;
+    }
+
+    public void setMatr(int matr) {
+        this.matr = matr;
+    }
+
+    public String getCurso() {
+        return curso;
+    }
+
+    public void setCurso(String curso) {
+        this.curso = curso;
+    }
+
+    public void setNome(String marileia) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    void getSexo(String f) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+    
+}
